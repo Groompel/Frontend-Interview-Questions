@@ -121,5 +121,19 @@
 	- Что такое Redux? В чем отличие от Flux?
 	- Когда стоит использовать Redux, а когда React Context?
 
+#### _Next.js_
 
+Coming soon...
+
+#### _Инструменты_
+
+Coming soon...
+
+#### _Безопасность_
+
+Coming soon...
+
+#### Прочее
+
+Coming soon...
 
