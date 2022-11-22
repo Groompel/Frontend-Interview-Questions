@@ -72,7 +72,7 @@
 		```js
 		function Person(name, age) {
 			return {
-					name, age
+				name, age
 			}
 		}
 
