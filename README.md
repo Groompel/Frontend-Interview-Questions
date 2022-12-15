@@ -3,6 +3,8 @@
 
 - [Общие](#general)  
 - [Технические](#technical)  
+	- [HTML](#html)
+	- [CSS](#css)
 	- [JavaScript](#javascript)
 	- [React](#react)
 	
@@ -17,6 +19,18 @@
 <a name="technical"/>
 
 ## Технические
+
+<a name="html"/>
+
+#### _HTML_
+
+_Coming soon..._
+
+<a name="css"/>
+
+#### _CSS_
+
+_Coming soon..._
 
 <a name="javascript"/>
 
