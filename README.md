@@ -13,7 +13,7 @@
 ## Общие 
 - Опыт работы и над какими проектами работал?
 - Какие были использованы технологии?
-- Чем занимался на этих проектах - разработкой с нуля, введением новых фич, поддержкой и т.п
+- Чем занимался на этих проектах, за что отвечал - разработкой с нуля, введением новых фич, поддержкой и т.п
 - Stack, на чем готов писать сейчас
 
 <a name="technical"/>
@@ -24,12 +24,15 @@
 
 #### _HTML_
 
-_Coming soon..._
+- В чем разница между <script>, <script async> и <script defer>
 
 <a name="css"/>
 
 #### _CSS_
 
+- Расскажи про специфику CSS селекторов
+	- Какой стиль перепишет предыдущий?
+- Опиши проп `position` и его возможные значения
 - Препроцессоры
 
 <a name="javascript"/>
@@ -38,6 +41,8 @@ _Coming soon..._
 
 - Какие типы данных есть в JS? 
 	- В чем разница между `null` и `undefined`?
+- Что такое всплытие (bubbling)?
+	- Что такое делегирование событий?
 - Что такое hoisting?
 	- В чем разница между `var` и `let` / `const`?
 	- Почему не стоит использовать `var`?
@@ -45,6 +50,7 @@ _Coming soon..._
 - Как работает объект `this`?
 	- Глобальный контекст
 	- Как можно передать контекст функции при ее вызове? 
+- В чем разница между `==` и `===`?
 - Что такое strict mode?
 	- Для чего нужен?
 	- Какие ограничения вводит?
@@ -106,8 +112,64 @@ _Coming soon..._
 	- Optional chaining (.?)
 	- Оператор нулевого слияния (??)
 		- Разница между `||` и `??`
+		```js
+		function printName(name) {
+			console.log(name || 'defaultName');
+		}
+		
+		printName('John');
+		printName('');
+		printName();
+		```
 - Как использовать приложение в режиме оффлайн?
 	- Service Workers
+- CORS?
+
+##### Coding
+
+```js
+const players = [1, 2, 3, 4, 5];
+
+// Создать две переменные так, чтобы они имели следующие значения в одну строчку:
+// winner = 1
+// otherPlayers = [2, 3, 4, 5]
+```
+
+```javascript
+// Напиши цикл, который перебирает числа до 100, возвращая 
+// "fizz" на числа кратные 3, 
+// "buzz" на числа кратные 5 
+// "fizzbuzz" на числа кратные и 3, и 5
+```
+	
+```js
+import React, { useState } from 'react';	
+
+function ItemList() {
+  const [items, setItems] = useState(['item1', 'item2', 'item3', 'item4']);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = event => {
+    setSearchTerm(event.target.value);
+  };
+
+  return (
+    <div>
+      <input type="text" onChange={handleSearch} value={searchTerm} />
+      <ul>
+        {items.map(item => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+// 1. Изменить компонент так, чтобы выводился список элементов подходящих под поисковой запрос
+// 2. Добавить debounce на инпут
+```
+
+
 
 <a name="react"/>
 
@@ -158,5 +220,5 @@ Coming soon...
 
 #### Прочее
 
-Coming soon...
+- Различия между `cookies`, `localStorage` и `sessionStorage`
 
