@@ -222,3 +222,6 @@ Coming soon...
 
 - Различия между `cookies`, `localStorage` и `sessionStorage`
 
+#### Todo List:
+- Добавить вопрос про использование ref в Context
+- Добавить вопрос про кэш и пагинацию в rtk query
