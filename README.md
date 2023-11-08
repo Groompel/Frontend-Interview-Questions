@@ -227,6 +227,7 @@ Coming soon...
 #### Todo List:
 - Добавить вопрос про использование ref в Context
 - Добавить вопрос про кэш и пагинацию в rtk query
+- Добавить вопросы про архитектуру
 
 
 - [Coding Interview & Technical Assessment Platform - CoderPad](https://coderpad.io/)
