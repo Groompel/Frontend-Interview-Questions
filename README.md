@@ -227,3 +227,6 @@ Coming soon...
 #### Todo List:
 - Добавить вопрос про использование ref в Context
 - Добавить вопрос про кэш и пагинацию в rtk query
+
+
+- [Coding Interview & Technical Assessment Platform - CoderPad](https://coderpad.io/)
